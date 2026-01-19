@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font{
+  font-family: "Inter", sans-serif;
+}
+
+
+.navbar{
+    border-bottom: 1px solid #412567;
+    display: flex;
+    justify-content: space-around;
+    max-height: 92px;
+    align-items: center;
+    padding: 16px;
+    background-color: #190D37;
+    color: white;
+    width: 100%;
+}
+
+.navbar .item{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-btn{
+    background: url(../assets/hero-circle.png) center/ 110% ;
+    padding: 12px 16px;
+    width: 135px;
+    height: 44px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.nav-btn:hover{
+    background-color: #24143a;
+    color: #190D37;
+}
+
+
+.hm-menu{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    height: 760px;
+    background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-container .circle{
+    height: 350px;
+    width: 350px;
+    background-image: url(../assets/hero-circle.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner-content {
+    margin-top: 40px;
+    color: white;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-container .banner-content p{
+    font-weight: 100;
+}
+
+.content-btn {
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.spotify-btn{
+    background: url(../assets/hero-circle.png) center/ 110% ;
+    padding: 12px 16px;
+    width: 201px;
+    height: 44px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.spotify-btn:hover{
+    
+    color: #00FF88;
+}
+
+.spotify-btn img{
+    margin-right: 5px;
+}
+.transparent-btn{
+    background: transparent ;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    padding: 12px 16px;
+    width: 135px;
+    height: 44px;
+    border-radius: 1000px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.transparent-btn:hover{
+    background-color: #fefefe;
+    color: #190D37;
+}
+
+.transparent-btn img{
+    margin-right: 5px;
+}
+
