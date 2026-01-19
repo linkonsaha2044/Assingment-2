@@ -188,4 +188,87 @@
     width: 240px;
     height: 58px;
 }
+.Why-Choose-TechWave {
+    
+    height: 1121px;
+    padding: 120px 200px;
+    background-color: #230E3D;
+
+}
+
+.Why-Choose-TechWave header{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.grid-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 225px);
+    gap: 30px;
+}
+
+.grid-card img{
+    width: 60px;
+    height: 60px;
+}
+
+.down-row{
+   
+    grid-row: span 2;
+    width: 380px;
+    height: 480px;
+    padding: 107px 40px;
+    background-color: #36175b4e;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFFFFF;
+}
+.down-row p{
+    opacity: 60%;
+}
+
+
+.column-side{
+   
+   grid-column: span 2;
+   width: 790px;
+    height: 230px;
+    background-color: #360e654e;
+    padding: 40px;
+    border-radius: 30px;
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FFFFFF;
+   
+}
+.column-side p{
+    opacity: 60%;
+}
+
+.single-column-row{
+
+   width: 380px;
+    height: 230px;
+    background-color: #360e654e;
+    padding: 40px;
+    border-radius: 40px;
+   margin-left: -120px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  
+}
+.single-column-row p{
+    opacity: 60%;
+}
 
