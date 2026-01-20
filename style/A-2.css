@@ -224,7 +224,7 @@
     width: 380px;
     height: 480px;
     padding: 107px 40px;
-    background-color: #36175b4e;
+    background-color: #360e654e;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -271,4 +271,143 @@
 .single-column-row p{
     opacity: 60%;
 }
+.features-host{
+    background-color: #1A0B2E;
+}
+
+.episodes h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.episode-card {
+    background: #24143a;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.episode-info {
+    padding: 24px;
+    color: white;
+    text-align: left;
+}
+
+.episode-info h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.episode-info p {
+    font-size: 14px;
+    color: #b0a3c4;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.duration {
+    color: #00FF88; 
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.meet-host-section {
+    background-color: #1A0B2E;
+    padding: 80px 5%;
+    text-align: center;
+    color: white;
+}
+
+.meet-host-section h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.host-card {
+    background: #24143a;
+    border-radius: 30px;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.host-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.host-details h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.host-details p {
+    font-size: 16px;
+    color: #b0a3c4;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.icon-list{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+}
+.icon-list .id{
+    width: 30px;
+    height: 30px;
+    background: #360e654e;
+    border-radius: 45%;
+    text-decoration: none;
+} 
+
+.icon-list .id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+
+
 
